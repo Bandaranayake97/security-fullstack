@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/v1/notice")
 public class NoticeControler {
 
-    @GetMapping("/notice")
+    @GetMapping("/my-notice")
     public String getMyNotice(){
         return "fuck me if yo u can";
     }
